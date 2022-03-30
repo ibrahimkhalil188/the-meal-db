@@ -5,7 +5,7 @@ const Product = ({ product }) => {
     console.log(product)
     const { strMealThumb, strMeal, strInstructions } = product
     return (
-        <div className='border drop-shadow-md p-3 relative h-[650px]'>
+        <div className='border drop-shadow-md p-3 relative h-[600px]'>
             <img className='w-70 rounded' src={strMealThumb} alt="" />
             <h2 className='text-3xl py-4'>{strMeal.slice(0, 10)}</h2>
             <p>{strInstructions.slice(0, 250)}</p>
